@@ -37,6 +37,20 @@ import javafx.stage.Stage;
  *
  *
  *
+ *            APPLICATION
+ *                 |
+ *                 v
+ *              STAGE => start() function specialized func
+ *                |
+ *                v
+ *              SCENE
+ *                |
+ *                v
+ *            Object Pane
+ *            |    |    |
+ *            v    v    v
+ *          Children Objects
+ *
  *
  */
 public class appFrame extends Application
